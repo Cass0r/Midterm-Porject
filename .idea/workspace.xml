@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d819a5a9-2a47-4004-884a-3d6ba61f432e" name="Changes" comment="Pom files has required dependencies, src folder arranged for both fundamental code and jUnit testing.">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d819a5a9-2a47-4004-884a-3d6ba61f432e" name="Changes" comment="jarfile added to root folder">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +15,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2yWKUzsHmpomJWviTmbACxyl96t" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,10 +29,12 @@
     "Application.App.executor": "Run",
     "Application.To_Do_List_Application.executor": "Run",
     "JUnit.to_do_itemTest.add_items_to_list.executor": "Run",
+    "JUnit.to_do_itemTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/carjo/IdeaProjects/Software Development 2/Midterm-Project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -44,6 +46,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\carjo\IdeaProjects\Software Development 2\Midterm-Project" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.To_Do_List_Application">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="$com.example.App" />
@@ -65,6 +72,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="to_do_itemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Midterm-Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="to_do_itemTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="to_do_itemTest.add_items_to_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Midterm-Project" />
       <option name="PACKAGE_NAME" value="" />
@@ -78,6 +94,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.To_Do_List_Application" />
+        <item itemvalue="JUnit.to_do_itemTest" />
         <item itemvalue="JUnit.to_do_itemTest.add_items_to_list" />
         <item itemvalue="Application.App" />
       </list>
@@ -99,7 +116,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1749944909152</updated>
-      <workItem from="1749944910178" duration="3422000" />
+      <workItem from="1749944910178" duration="5747000" />
+      <workItem from="1750001645163" duration="2405000" />
     </task>
     <task id="LOCAL-00001" summary="Maven Project Created">
       <option name="closed" value="true" />
@@ -117,7 +135,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749945613325</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pom files edited plugin for mvn site project, as well as jar file created through maven">
+      <option name="closed" value="true" />
+      <created>1749955294946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1749955294946</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jarfile added to root folder">
+      <option name="closed" value="true" />
+      <created>1749955419055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1749955419055</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Maven Project Created" />
     <MESSAGE value="Pom files has required dependencies, src folder arranged for both fundamental code and jUnit testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Pom files has required dependencies, src folder arranged for both fundamental code and jUnit testing." />
+    <MESSAGE value="Pom files edited plugin for mvn site project, as well as jar file created through maven" />
+    <MESSAGE value="jarfile added to root folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="jarfile added to root folder" />
   </component>
 </project>
